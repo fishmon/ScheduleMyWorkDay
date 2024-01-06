@@ -71,7 +71,7 @@ $(document).ready(function () {
             currentEventText.html(currentEvent + "<br>There are " + futureEventsCount + " future task(s)").show();
           currentEventBox.show();
                 } else {
-          currentEventBox.text("No task(s) for the current time slot. ").show();
+          currentEventBox.html("No task(s) for the current time slot. " + "<br>There are " + futureEventsCount + " future task(s)").show();
         }
       }
       
