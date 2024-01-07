@@ -29,12 +29,14 @@
   <body>
     
     <header class="p-5 mb-4 border-5 border-bottom border-dark text-center">
+
+     
       
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       
       <p id="currentDay" class="lead"></p>
-       <!-- Add the current event box -->
+       <!-- current and future  tasks box  -->
   <div id="currentEventBox" class="alert alert-info mt-5 mx-auto" style="display: none;  max-width: 700px;">
     <strong>Current task(s):</strong>
     <span id="currentEvent"></span>
@@ -130,7 +132,8 @@
         </button>
         <button id="clearBtn" class="btn btn-danger">Clear Schedule</button>
 
-    </div>
+    </div> 
+    <!-- background animation  -->
     <div id="bg-wrap">
       <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
         <defs>
@@ -188,6 +191,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/quoteRandom.js"></script>
+
 
   </body>
 </html>

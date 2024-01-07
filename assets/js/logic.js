@@ -1,3 +1,4 @@
+// wrap everything in a function so html loads first
 $(document).ready(function () {
     var displayTime = $("#currentDay");
     var currentEventBox = $("#currentEventBox");
